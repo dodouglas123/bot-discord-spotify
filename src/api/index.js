@@ -96,7 +96,7 @@ module.exports = class octopiAPI {
 
         const options = {
             method: 'POST',
-            headers: { 'Authorization': 'Basic ' + (new Buffer.from("ce0a742dd5fa4ff3beeb1bce39f2b862:ad28c0fe79ae4c5c92f3df54be283b32").toString('base64')), 'Content-Type': 'application/x-www-form-urlencoded' },
+            headers: { 'Authorization': 'Basic ' + (new Buffer.from("a:b").toString('base64')), 'Content-Type': 'application/x-www-form-urlencoded' },
             data: data,
             url: `https://accounts.spotify.com/api/token`,
         };
